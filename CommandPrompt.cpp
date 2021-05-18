@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file defines the CommandPrompt, which is what the user interacts with while a command
 is waiting to be executed.
