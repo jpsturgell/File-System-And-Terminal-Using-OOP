@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file defines the necessary methods for the password proxy, which acts as
 a gateway between the user and the file that the proxy protects and maintains
