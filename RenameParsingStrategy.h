@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file declares the necessary functions for the RenameParsingStrategy, which is used to
 feed input to the commands that make up the rename macro command.
