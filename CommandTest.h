@@ -1,4 +1,4 @@
-// USED by unit tests, this file should not be modified
+
 
 #pragma once
 #include "AbstractCommand.h"
