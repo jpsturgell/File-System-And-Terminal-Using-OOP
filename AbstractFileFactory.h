@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file declares the abstract base class or interface that all file factories that can be used in
 this program must implement.
