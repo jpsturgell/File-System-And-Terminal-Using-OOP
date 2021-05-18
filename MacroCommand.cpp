@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file defines the necessary methods for all macro commands, which are composite
 objects composed of other commands. This class aggregates commands under one object
