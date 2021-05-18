@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file declares the necessary functions for all MacroCommand objects, which is derived from the
 AbstractCommand interface. This file extends the interface, however, including a vector of pointers
