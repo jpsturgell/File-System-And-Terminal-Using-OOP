@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file defines the necessary methods for the remove command, which simply
 removed a file from the system.
