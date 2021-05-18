@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file defines the necessary methods for the touch command, which is used
 to create files. The program passes to this class a name for the new file, and this
