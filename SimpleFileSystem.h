@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file declares the necessary functions for the SimpleFileFactory class, which is
 a particular implementation of the AbstractFileSystem interface.
