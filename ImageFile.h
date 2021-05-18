@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file declares the necessary functions for the ImageFile class, which is a type of file
 that this system knows how to handle. 
