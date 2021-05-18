@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file defines the necessary methods for the metadata display visitor, which
 displays information about a particular file in the file system given a pointer 
