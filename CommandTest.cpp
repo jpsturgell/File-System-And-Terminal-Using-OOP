@@ -1,4 +1,4 @@
-// USED by unit tests, this file should not be modified
+
 
 #include "CommandTest.h"
 using namespace std;
