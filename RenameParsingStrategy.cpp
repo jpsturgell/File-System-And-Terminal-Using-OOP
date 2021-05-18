@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file defines the methods that parse the user input into an input that can be fed
 to the copy command and then to the remove command -- the commands that make up
