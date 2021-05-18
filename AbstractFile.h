@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file declares the abstract base class or interface that all files that this file system supports must define
 in their implementations. This file also contains all of the error/outcome enumerations used throughout the entire
