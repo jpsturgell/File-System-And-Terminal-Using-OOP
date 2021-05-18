@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file contains the definitions that implement the cat command, which is used to
 either overwrite the contents of a file or append to the existing contents.
