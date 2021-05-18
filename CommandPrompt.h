@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file declares the necessary functions for the command prompt, which is the class that 
 controls the flow of the program while the file system is being interacted with.
