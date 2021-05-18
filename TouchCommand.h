@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file declares the necessary functions for the touch command, which is derived from the
 AbstractCommand class and is used to create files. 
