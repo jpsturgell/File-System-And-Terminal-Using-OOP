@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file defines how the BasicDisplayVisitor should visit each type of file supported
 by this file system.
