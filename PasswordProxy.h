@@ -1,7 +1,6 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
+
 
 This file declares the PasswordProxy class, which is a particular derived class of
 the Abstract file class. The proxy acts as a gateway between the user and a file (that
