@@ -1,26 +1,12 @@
 ======================================================================
 
-Authors: Rain Chen, Irtaza Waseem, and Aaron Stein
-CSE 332 Lab 5
+This is a project I did with my friends Aaron Stein and Rain Chen
+
+Authors: Irtaza Waseem, Aaron Stein, Rain Chen
 
 
 ======================================================================
 
-**********************************************************************
-How work was split:
-
-All of the coding for this project was done collaboratively, either in studio sessions, or in scheduled zoom
-calls outside of class time. The sections of the ReadMe were split evenly and completed separately. Here are
-more specifics:
-
-Aaron: bug fixes, reviewing code, adding comments to the code, design decisions section in ReadMe, overview in ReadMe
-
-Irtaza: reviewing code, testings section in ReadMe, enumerations section in ReadMe
-
-Rain: reviewing code, testings section in ReadMe, enumerations section in ReadMe
-
-
-**********************************************************************
 Overview:
 
 The purpose of this program is to act as a simulated file system with which the user can interact to make files, 
@@ -65,8 +51,7 @@ In AbstractFile.h
 **********************************************************************
 Design Decisions: 
 
-Throughout this project, there were various design and functional decisions that had to be made as they were
-not explicitly specified in the assignment instructions. The decisions we made and how the program is intended
+Throughout this project, there were various design and functional decisions that had to be mad. The decisions we made and how the program is intended
 to function in various situations are explained in this section.
 
 What inputs do the CommandPrompt and commands accept: This program is configured in such a way that it tolerates
@@ -78,8 +63,7 @@ $   touch		  <filename>    -p   extra
 Even though the command above contains all the right components in the right order, the input is not accepted
 as there is extra input. The same concept is also enforced for the "help" and "q" commands.
 
-In one of the previous studios, there was a decision made that image files cannot be appended to. In order to
-continue that policy into this lab, whenever the "-a" command is given in addition to the cat command for an
+Whenever the "-a" command is given in addition to the cat command for an
 image file, the program tells the user that they cannot do this. Image files can only be written and overwritten.
 
 Similarly, no empty files can be appended to. If the user attempts to append to any type of file, text or
@@ -113,11 +97,11 @@ method that lives within the MacroCommand class calls displayInfo() on the point
 that the macro command is configured with. In this way, we can get a custom display message for each macro command
 since the dynamic type of the parsing strategy will determine what version of displayInfo() is called.
 
-Although not specified in the instructions, a destructor was implemented for the SimpleFileSystem class. This destructor
+A destructor was implemented for the SimpleFileSystem class. This destructor
 iterates through its map of files and calls "delete" on each pointer to AbstractFile that it contains. This prevents
 a memory leak upon the program's termination.
 
-In main(), which lives in Lab5.cpp, the SimpleFileSystem and SimpleFileFactory are purposely allocated main's stack frame
+In main(), which lives in main.cpp, the SimpleFileSystem and SimpleFileFactory are purposely allocated main's stack frame
 and not on the heap. This keeps us from having to explicitly call delete on these objects.
 
 Like the other commands, the goal was to enforce, as previously discussed, that the user cannot enter extra input
@@ -134,15 +118,7 @@ the user is notified that their input was incorrectly formatted.
 **********************************************************************
 Warnings/Errors:
 
-In BasicDisplayVisitor.cpp, we received this warning:
-Warning C26451 Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the
-value to the wider type before calling operator '*' to avoid overflow.
-
-This warning was fixed by ensuring that all of the data types being used were the same.
-
-No other errors or warnings were encountered when building the program. We were always careful
-not to have circular includes by using forward declarations wherever necessary to prevent build
-errors.
+No errors or warnings were encountered when building the program.
 
 
 **********************************************************************
@@ -151,17 +127,17 @@ Tests:
 We ran 15 tests which involved testing all the commands and how well the program tolerates whitespace and extra characters, all 15 tests pass.
 
 Test 1: Testing for quit
-C:\Users\irtaza.waseem\source\repos\cse332s-sp21-wustl\oop-work-aaron-irtaza-rain-studios16-21\Lab5\x64\Debug>Lab5.exe
+C:\Users\irtaza.waseem\source\repos\file-system-and-terminal-project\file-system-and-terminal\x64\Debug>project.exe
 
 Please input command, q to quit, help for list of commands, or help followed by a command name for more information about that command
 $  q
 
-C:\Users\irtaza.waseem\source\repos\cse332s-sp21-wustl\oop-work-aaron-irtaza-rain-studios16-21\Lab5\x64\Debug>
+C:\Users\irtaza.waseem\source\repos\file-system-and-terminal-project\file-system-and-terminal\x64\Debug>
 
 Test 1 passes
 
 Test 2: Test the help command and test help followed by a command
-C:\Users\irtaza.waseem\source\repos\cse332s-sp21-wustl\oop-work-aaron-irtaza-rain-studios16-21\Lab5\x64\Debug>Lab5.exe
+C:\Users\irtaza.waseem\source\repos\file-system-and-terminal-project\file-system-and-terminal\x64\Debug>project.exe
 
 Please input command, q to quit, help for list of commands, or help followed by a command name for more information about that command
 $  help
@@ -192,7 +168,7 @@ Test 2 passes.
 
 
 Test 3: Testing touch command and ls command
-C:\Users\irtaza.waseem\source\repos\cse332s-sp21-wustl\oop-work-aaron-irtaza-rain-studios16-21\Lab5\x64\Debug>Lab5.exe
+C:\Users\irtaza.waseem\source\repos\file-system-and-terminal-project\file-system-and-terminal\x64\Debug>project.exe
 
 Please input command, q to quit, help for list of commands, or help followed by a command name for more information about that command
 $  ls
