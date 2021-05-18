@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file declares the abstract base class AbstractCommmand which is inherited by all commands in this program.
 
