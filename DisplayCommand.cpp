@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file defines the necessary methods for the display command, which can display
 files either as their data, or as formatted data for img files.
