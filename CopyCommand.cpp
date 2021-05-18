@@ -1,7 +1,5 @@
 /*
 
-Authors: Aaron Stein, Rain Chen, Irtaza Waseem
-CSE332 Lab 5
 
 This file defines the necessary methods for the copy command, which duplicates a file 
 and gives the new file a new name.
